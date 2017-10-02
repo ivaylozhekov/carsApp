@@ -1,0 +1,10 @@
+.vscode
+.idea
+.DS_Store
+build
+node_modules
+typings
+*.orig
+/app/src/.env.ts
+/app/coverage
+/app/docs

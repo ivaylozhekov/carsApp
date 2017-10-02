@@ -1,0 +1,59 @@
+.home-header {
+  text-align: center;
+  margin-bottom: 20px;
+
+  .content {
+    height: 36vw;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+      .car-title {
+        font-size: 5vh !important;
+        line-height: 5vh !important;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .car-title {
+        font-size: 50px !important;
+        line-height: 8vh !important;
+      }
+    }
+
+    .car-title {
+      height: 12vw;
+      font-size: 80px;
+      line-height: 12vh;
+      color: @white;
+      font-family: @Lato_Black;
+      text-align: center;
+      text-shadow: @boxShadowText;
+    }
+
+    @media (max-width: 1024px) {
+      .cust-btn {
+        width: 150px !important;
+        height: 50px !important;
+        font-size: 16px !important;
+      }
+    }
+
+    .cust-btn {
+      width: 241px;
+      height: 73px;
+      font-size: 25px;
+      border-radius: 37px;
+      background-color: @red4;
+      border-color: @red4;
+    }
+  }
+}

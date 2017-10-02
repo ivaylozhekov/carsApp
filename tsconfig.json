@@ -1,0 +1,23 @@
+{
+  "version": "1.8.9",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "inlineSourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "noImplicitAny": false
+  },
+  "files": [
+    "typings/index.d.ts",
+    "app/src/typescript.d.ts",    
+    "app/src/bootstrap.tsx"
+  ],
+  "exclude": [
+    "build",
+    "node_modules",
+    "typings"
+  ]
+}

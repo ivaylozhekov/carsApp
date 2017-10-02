@@ -1,0 +1,54 @@
+.app-header {
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: @default-box-shadow;
+    background-color: @white;
+    border: @defaultBorder;
+    border-radius: 0;
+    margin: 0;
+    
+    .container-fluid {
+        padding-right: 0;
+    }
+
+    & .navbar-header {
+        @media (min-width: 768px) {
+            .navbar-brand {
+                min-width: 121px;
+                min-height: 94px;
+            }
+        }
+        .navbar-brand {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    }
+
+    .navbar-nav {
+        & > li {
+            height: 100%;
+            & a {
+                padding: 0;
+                min-width: 121px;
+                line-height: 94px;
+                text-align: center;
+                height: 94px;
+            }
+        }
+        & .menu-item {
+            font-size: 18px;
+            display: inline-block;
+            text-decoration: none;
+            color: @vivid-gray;
+            width: 100%;
+            font-family: @Lato_Regular;
+        }
+        & .menu-item.active {
+            background-color: @activeTab;
+            color: @white;
+        }
+    }
+}

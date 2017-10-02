@@ -1,0 +1,36 @@
+.social-btns {
+  position: absolute;
+  right: 0;
+  top: @socialBtnDim;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: @socialBtnDim;
+
+  & > div:hover {
+    background: @red3;
+  }
+
+  & > div {
+    font-size: 20px;
+    width: @socialBtnDim;
+    height: @socialBtnDim;
+    color: @white;
+    background: @red1;
+    cursor: pointer;
+    margin: 1px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .social-btns {
+    top: @socialBtnSmall;
+    line-height: @socialBtnSmall;
+
+    & > div {
+      width: @socialBtnSmall;
+      height: @socialBtnSmall;
+      font-size: 2vw;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(../assets/fonts/font-lato/Lato-Regular.eot);
+    src: url(../assets/fonts/font-lato/Lato-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/font-lato/Lato-Regular.woff) format('woff'),
+         url(../assets/fonts/font-lato/Lato-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(../assets/fonts/font-lato/Lato-Bold.eot);
+    src: url(../assets/fonts/font-lato/Lato-Bold.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/font-lato/Lato-Bold.woff) format('woff'),
+         url(../assets/fonts/font-lato/Lato-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(../assets/fonts/font-lato/Lato-Black.eot);
+    src: url(../assets/fonts/font-lato/Lato-Black.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/font-lato/Lato-Black.woff) format('woff'),
+         url(../assets/fonts/font-lato/Lato-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(../assets/fonts/font-lato/Lato-Light.eot);
+    src: url(../assets/fonts/font-lato/Lato-Light.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/font-lato/Lato-Light.woff) format('woff'),
+         url(../assets/fonts/font-lato/Lato-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@Lato_Regular: 'Lato Regular', Arial, sans-serif;
+@Lato_Bold: 'Lato Bold', Arial, sans-serif;
+@Lato_Black: 'Lato Black', Arial, sans-serif;
+@Lato_Light: 'Lato Light', Arial, sans-serif;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: inherit;
+    font-family: inherit;
+    overflow-y: scroll;
+}
+
+body {
+    height: 100%;
+    padding-right: 0 !important;
+    background: @white;
+    font-family: @Lato_Regular;
+    font-size: 14px;
+    line-height: 18px;
+    color: @black;
+}
+
+main {
+    margin-top: 96px;
+}
+
+@media (max-width: 767px) {
+    main {
+        margin-top: 52px;
+    }
+}
