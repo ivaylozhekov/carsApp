@@ -3,7 +3,7 @@
 Requirements: `NodeJS > 4.x`
 
 ```bash
-git clone https://github.com/ivaylozhekov/CarApp.git
+git clone https://github.com/ivaylozhekov/CarsApp.git
 cd CarsApp
 npm install
 npm start
