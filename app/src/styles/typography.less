@@ -72,11 +72,20 @@ body {
 }
 
 main {
-    margin-top: 96px;
+    padding-top: 96px;
+    overflow-x: hidden;
+    min-height: 100%;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
+
+#root,
+.site-main-container {
+    height: 100%;
 }
 
 @media (max-width: 767px) {
     main {
-        margin-top: 52px;
+        padding-top: 52px;
     }
 }
